@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    flex: 1;
     
 }
 
@@ -16,7 +17,7 @@ a {
     color: white;
 }
 
-p {
+#subtext {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -32,12 +33,17 @@ h2 {
     font-size: 24px;
 }
 
+#random {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
 button {
     background-color: #3882f6;
     color: white;
     padding: 8px 24px;
     border-radius: 8px;
-    margin:
 }
 
 .content {
@@ -70,5 +76,29 @@ button {
     margin: 32px;
     color:white;
     background-color: gray;
-    padding: 0 128px
+    padding: 32px 100px
 }
+
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0;
+    flex: 1;
+}
+
+.random-info {
+    display: flex;
+    flex: 1;
+}
+
+.cards {
+    padding: 32px;
+    width: 300px;
+    text-align: center;
+}
+
+.info-img {
+    width: 240px;
+    height: auto;
+  }
