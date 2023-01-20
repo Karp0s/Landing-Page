@@ -36,6 +36,11 @@ h2 {
     font-size: 24px;
 }
 
+h3 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 #random {
     color: #1f2937;
     font-size: 36px;
@@ -50,7 +55,7 @@ button {
 }
 
 .content {
-    width:300px
+    width:40vh
 }
 
 .container {
@@ -78,7 +83,7 @@ button {
     margin: 32px;
     color:white;
     background-color: gray;
-    padding: 32px 100px
+    padding: 32px 180px
 }
 
 .one {
@@ -128,4 +133,34 @@ button {
     font-size: 30px;
     padding-right: 4px;
     padding-bottom: 100px;
+  }
+
+  .three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 148px;
+    background-color: #3882f6;
+    margin:48px 128px;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 36px;
+    color: white;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    border-color: white;
+    margin-right: 100px;
+  }
+
+  .footer {
+    width: 100%;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
   }
